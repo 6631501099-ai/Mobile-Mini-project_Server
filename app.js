@@ -2,8 +2,7 @@ const express = require('express');
 const app = express();
 const con = require('./db');
 const bcrypt = require('bcrypt');
-
-
+// const cors = require('cors');
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
